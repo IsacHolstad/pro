@@ -49,7 +49,60 @@ if (stringFour === numberFour) {
 // not equal!!!
 
 
+var planets = [
+   "earth",
+   "mars",
+   ["isac", "brb", "yeah"],
+   ["hello", "guys", "iphone"],
+   ["isac", "william", "hey"]
+];
+console.log(planets[0]);
+console.log(planets[1] [3]);
+console.log(planets[2] [2]);
+console.log(planets[3] [1]);
+console.log(planets[4] [2]);
+//it works
+var dog = {
+    name : 'morten',
+    color : 'red',
+    age : '55'
+};
 
+console.log(dog.name);
+console.log(dog.age);
+console.log(dog.color);
+//console.log(warn)
+//it works!!!!! :)
+
+var mobilePhones = [
+    {
+        //phone name
+        //color
+        //storage 
+        name : 'iphone 11',
+        color : 'black',
+        storage : 128       
+        
+    }, {
+        name : 'motorola',
+        color : 'white',
+        storage : 15
+    }, {
+        name : 'samsung',
+        color : 'rainbow',
+        storage : 50
+    }, {
+        name : 'huawei',
+        color : 'pink',
+        storage : 64
+    }
+];
+for (var i = 0; i <mobilePhones. length; i++){
+    console.log(mobilePhones[i].name);
+    console.log(mobilePhones[i].color);
+    console.log(mobilePhones[i].storage);
+}
+console.log(mobilePhones)
 
 
 
