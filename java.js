@@ -118,3 +118,13 @@ someArray.push("isac");
 console.log(someArray);
 //someArray.pop();
 console.log(someArray.length);
+
+
+//wensday
+
+function logWord() {
+    console.log('hello world');
+}
+logWord();
+var name = 'william';
+console.log(name);
