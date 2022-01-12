@@ -112,7 +112,7 @@ console.log(mobilePhones)
 
 
 
-//lecture 2 on monday
+//mon
 var someArray = ["red", "blue", "green", "yellow"];
 someArray.push("isac");
 console.log(someArray);
@@ -120,7 +120,7 @@ console.log(someArray);
 console.log(someArray.length);
 
 
-//wensday
+//ons 
 
 function logWord() {
     console.log('hello world');
@@ -130,3 +130,42 @@ var name = 'william';
 console.log(name);
 
 
+function getSum(hey1 , hey2) {
+    console.log(hey1 + hey2);
+
+}
+
+getSum(1, 1);
+
+function getMultiply(hey1, hey2) {
+    console.log(hey1 * hey2);
+}
+
+//onsdag lecture 
+//function initelaiseIsac () {
+    //var isac = {
+        //name = "isac"
+        //ocupation = "student"
+    //};
+    //return isac;
+//};
+//initelaiseIsac();
+//console.log()
+
+//function logWord(arg1, arg2, arg3) {
+   // console.log(theWord);
+//};
+//logWord(hello);
+//didnt work find out whhy
+
+function printLikeCounter(likeCounter) {
+    console.log(likeCounter + "likes");
+};
+printLikeCounter(89);
+printLikeCounter(44);
+printLikeCounter(90);
+
+function creatLikeCounter(likeCounter) {
+    return likeCounter + "likes";
+};
+creatLikeCounter(89995959);
