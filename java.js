@@ -169,3 +169,33 @@ function creatLikeCounter(likeCounter) {
     return likeCounter + "likes";
 };
 creatLikeCounter(89995959);
+
+//examples
+ var square = function(number) {
+     return number * number
+ };
+ var x = square(10);
+ console.log(x);
+ 
+//
+var x = 123;
+x.toString();
+
+(123).toString();
+(100 + 23).toString();
+
+
+//test in lecture tors
+//var someNumber = 55;
+//var someText = someNumber.
+
+var someString = "isac";
+var somestring = someString.toString();
+
+console.log(someString);
+
+
+// last code worked it came back as "isac"
+const points = [40, 100, 90, 70, 63];
+points.sort(function(a, b){return 0.5 - Math.random()})
+console.log(points);
