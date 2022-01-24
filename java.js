@@ -199,3 +199,20 @@ console.log(someString);
 const points = [40, 100, 90, 70, 63];
 points.sort(function(a, b){return 0.5 - Math.random()})
 console.log(points);
+
+
+const fruit = ["banana", "apple", "mango", "orange"];
+fruit.sort();
+
+console.log(fruit);
+
+const fruits = ["banana", "apple", "mango", "orange"];
+fruits.pop(0);
+console.log(fruits);
+
+const fruitse = ["banana", "apple", "mango", "orange"];
+fruitse.shift(0);
+console.log(fruitse);
+
+//question for exam (tryouts)
+
