@@ -24,3 +24,22 @@ console.dir(window)
 
 console.dir(document);
 
+const h1 = document.querySelector("h1")
+h1.style.color = "white"
+h1.style.background = "black"
+h1.style.height = "100px"
+h1.style.textAlign = "center"
+h1.style.fontSize = "60px"
+h1.style.fontWeight = "bolder"
+
+const section = document.querySelector("section");
+section.style.color = "white"
+section.style.backgroundColor = "black"
+section.style.height = "100px"
+section.style.textAlign = "center"
+section.style.fontSize = "60px"
+section.style.fontWeight = "bolder"
+
+
+
+

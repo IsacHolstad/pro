@@ -20,3 +20,13 @@ body {
   text-align: center;
   background-color: red;
 }
+.footer {
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 150px;
+  font-size: 25px;
+  padding: 35px;
+}
