@@ -40,6 +40,9 @@ section.style.textAlign = "center"
 section.style.fontSize = "60px"
 section.style.fontWeight = "bolder"
 
-
+//27.onsdag  LESSON 4
+function printName(name) {
+    
+}
 
 
