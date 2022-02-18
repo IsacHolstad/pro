@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.squer {
+  width: 300px;
+  background-color: green;
+  height: 300px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px;
+}
+
+#squerBTN {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  justify-content: center;
+  margin: 20px;
+  cursor: pointer;
+}
