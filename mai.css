@@ -341,6 +341,9 @@ a{
       height: 40%;
       
     }
+    .blog-title{
+        text-decoration: none;
+    }
     h3{
       text-decoration: none;
       padding-bottom: 15px;
